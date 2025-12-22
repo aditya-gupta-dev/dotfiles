@@ -1,0 +1,11 @@
+show=drun
+width=450
+height=300
+
+location=top
+anchor=center
+x_offset=0
+y_offset=40 
+
+allow_markup=true
+prompt=Search...

@@ -1,0 +1,36 @@
+window { 
+	background-color: rgba(20,20,30,0.55); 
+	border-radius: 16px; 
+	border: 1px solid rgba(255,200,220,0.25); 
+	padding: 10px; 
+	font-family: MesloLGS NF;
+        margin-bottom: 16px;	
+}
+
+#input { 
+	background-color: rgba(40,40,55,0.6); 
+	color: #f8f8f2;
+	border-radius: 12px; 
+	padding: 10px; 
+	margin-bottom: 10px; 
+	border: none; 
+} 
+
+#outer-box { 
+	padding: 10px; 
+} 
+
+#entry{ 
+	padding: 10px; 
+	border-radius: 10px; 
+} 
+
+#entry:selected { 
+	background-color: rgba(255,170,200,0.35); 
+	color: #ffffff; 
+}
+
+#text {
+	color: #f0f0f0;
+} 
+
