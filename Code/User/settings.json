@@ -1,4 +1,6 @@
 {
     "editor.mouseWheelZoom": true,
-    "editor.fontFamily": "Adwaita Mono"
+    "chat.agent.enabled": false,
+    "editor.fontFamily": "MesloLGS NF",
+    "workbench.secondarySideBar.defaultVisibility": "hidden"
 }
