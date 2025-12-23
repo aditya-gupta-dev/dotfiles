@@ -2,5 +2,7 @@
     "editor.mouseWheelZoom": true,
     "chat.agent.enabled": false,
     "editor.fontFamily": "MesloLGS NF",
-    "workbench.secondarySideBar.defaultVisibility": "hidden"
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.colorTheme": "Mayukai Dark",
+    "git.openRepositoryInParentFolders": "never"
 }
