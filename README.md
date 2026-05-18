@@ -1,6 +1,7 @@
 # Arch Hyprland Dotfiles
 
 TODOS:
+
 []No Setup Script: create a script that installs all the required programs and sets thigns up. 
 
 Bugs: 
