@@ -18,3 +18,7 @@ alias fzf "fzf --preview 'bat --theme 1337 --style=numbers --color=always --line
 #function fish_greeting
 #    # smth smth
 #end
+
+
+# Added by Antigravity CLI installer
+set -gx PATH "/home/aditya/.local/bin" $PATH
