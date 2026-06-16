@@ -1,6 +1,6 @@
 require("nvchad.configs.lspconfig").defaults()
 
-local servers = { "html", "cssls", "rust_analyzer", "clangd" }
+local servers = { "html", "cssls", "rust_analyzer", "clangd", "gopls"}
 vim.lsp.enable(servers)
 
 vim.lsp.config("rust_analyzer", {

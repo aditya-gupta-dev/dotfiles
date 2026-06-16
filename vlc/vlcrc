@@ -48,7 +48,7 @@
 #qt-continue=1
 
 # Enable Dark Mode (boolean)
-#qt-dark-palette=0
+qt-dark-palette=1
 
 # Embed the file browser in open dialog (boolean)
 #qt-embedded-open=0
@@ -555,7 +555,7 @@ qt-privacy-ask=0
 [grain] # Grain video filter
 
 # Variance (float)
-#grain-variance=2.000000
+grain-variance=10.000000
 
 # Minimal period (integer)
 #grain-period-min=1
@@ -742,7 +742,7 @@ qt-privacy-ask=0
 [adjust] # Image properties filter
 
 # Image contrast (0-2) (float)
-#contrast=1.000000
+contrast=1.240000
 
 # Image brightness (0-2) (float)
 #brightness=1.000000
@@ -751,7 +751,7 @@ qt-privacy-ask=0
 #hue=0.000000
 
 # Image saturation (0-3) (float)
-#saturation=1.000000
+saturation=3.000000
 
 # Image gamma (0-10) (float)
 #gamma=1.000000
@@ -2513,10 +2513,10 @@ qt-privacy-ask=0
 #sout-x264-stats=x264_2pass.log
 
 # Default preset setting used (string)
-#sout-x264-preset=
+sout-x264-preset=ultrafast
 
 # Default tune setting used (string)
-#sout-x264-tune=
+sout-x264-tune=film
 
 # x264 advanced options (string)
 #sout-x264-options=
@@ -3856,7 +3856,7 @@ qt-privacy-ask=0
 #audio-time-stretch=1
 
 # Audio output module (string)
-#aout=
+aout=any
 
 # Media role (string)
 #role=video
@@ -3994,10 +3994,10 @@ qt-privacy-ask=0
 #deinterlace-mode=auto
 
 # Video output module (string)
-#vout=
+vout=any
 
 # Video filter module (string)
-#video-filter=
+video-filter=adjust
 
 # Video splitter module (string)
 #video-splitter=
