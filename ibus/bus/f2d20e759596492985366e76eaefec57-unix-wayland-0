@@ -3,5 +3,5 @@
 # ibus session bus with the below address.
 # If the IBUS_ADDRESS environment variable is set, it will
 # be used rather than this file.
-IBUS_ADDRESS=unix:path=/home/aditya/.cache/ibus/dbus-8R149XOP,guid=5a34b4fa8b678cef209aff7e6a30e798
-IBUS_DAEMON_PID=2620
+IBUS_ADDRESS=unix:path=/home/aditya/.cache/ibus/dbus-PmIgyGTp,guid=4cde9fc989427d1da847241a6a30f1a2
+IBUS_DAEMON_PID=2646
