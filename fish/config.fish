@@ -12,7 +12,7 @@ alias c "printf '\033[2J\033[3J\033[1;1H'"
 alias t "touch"
 alias bat 'bat --theme 1337'
 alias fzf "fzf --preview 'bat --theme 1337 --style=numbers --color=always --line-range :500 {}' | wl-copy"
-
+alias vim 'nvim'
 # overwrite greeting
 # potentially disabling fastfetch
 #function fish_greeting

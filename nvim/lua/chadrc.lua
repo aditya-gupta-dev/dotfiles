@@ -6,8 +6,9 @@
 local M = {}
 
 M.base46 = {
-	theme = "mountain",
-
+	theme = "ashes",
+  -- terminal_colors = false, 
+  transparency = true, 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },

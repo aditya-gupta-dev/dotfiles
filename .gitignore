@@ -48,4 +48,7 @@ eas-cli-nodejs/
 filetypesrc 
 transmission/
 kservicemenurc
-ibus
+ibus/
+Google/
+google-chrome-for-testing/
+connections.db

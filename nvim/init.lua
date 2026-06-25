@@ -1,3 +1,4 @@
+vim.o.termguicolors = false
 vim.g.base46_cache = vim.fn.stdpath "data" .. "/base46/"
 vim.g.mapleader = " "
 vim.opt.number = true
