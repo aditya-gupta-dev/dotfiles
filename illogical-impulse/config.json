@@ -80,7 +80,7 @@
             "workspaceZoom": 1.02
         },
         "thumbnailPath": "",
-        "wallpaperPath": "/home/aditya/Pictures/Wallpapers/bog.jpg",
+        "wallpaperPath": "/home/aditya/Pictures/Wallpapers/wallhaven-zp5z2w.png",
         "widgets": {
             "clock": {
                 "cookie": {
@@ -142,7 +142,7 @@
         },
         "borderless": false,
         "bottom": false,
-        "cornerStyle": 0,
+        "cornerStyle": 1,
         "floatStyleShadow": true,
         "indicators": {
             "notifications": {
@@ -333,7 +333,7 @@
     "panelFamily": "ii",
     "policies": {
         "ai": 1,
-        "weeb": 1
+        "weeb": 0
     },
     "regionSelector": {
         "annotation": {
@@ -458,13 +458,13 @@
     },
     "sounds": {
         "battery": false,
-        "pomodoro": false,
+        "pomodoro": true,
         "theme": "freedesktop"
     },
     "time": {
         "dateFormat": "ddd, dd/MM",
         "dateWithYearFormat": "dd/MM/yyyy",
-        "format": "hh:mm",
+        "format": "h:mm AP",
         "pomodoro": {
             "breakTime": 300,
             "cyclesBeforeLongBreak": 4,
