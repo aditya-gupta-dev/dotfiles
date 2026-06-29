@@ -3997,7 +3997,7 @@ aout=any
 vout=any
 
 # Video filter module (string)
-video-filter=adjust
+#video-filter=
 
 # Video splitter module (string)
 #video-splitter=

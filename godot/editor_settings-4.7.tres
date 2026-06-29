@@ -325,7 +325,9 @@ _project_settings_advanced_mode = false
 _export_template_download_directory = ""
 _default_feature_profile = ""
 _script_setup_templates_dictionary = {
-"MeshInstance3D": "0NodeDefault"
+"CharacterBody3D": "0CharacterBody3DBasic Movement",
+"MeshInstance3D": "0NodeDefault",
+"Node3D": "0NodeDefault"
 }
 _script_setup_use_script_templates = true
 _use_favorites_root_selection = false

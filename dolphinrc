@@ -1,12 +1,11 @@
-[ContextMenu]
-ShowCopyMoveMenu=true
+[DetailsMode]
+PreviewSize=32
 
 [General]
+GlobalViewProps=false
+ShowFullPath=true
+ShowStatusBar=FullWidth
 Version=202
-ViewPropsTimestamp=2026,4,5,16,20,38.107
-
-[IconsMode]
-PreviewSize=208
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -16,7 +15,4 @@ Places Icons Static Size=22
 MenuBar=Disabled
 
 [PreviewSettings]
-Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,directorythumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,opendocumentthumbnail,svgthumbnail,windowsexethumbnail,windowsimagethumbnail,fontthumbnail,glycin-heif,glycin-image-rs,glycin-jxl,glycin-svg,ffmpegthumbnailer,gsf-office
-
-[UiSettings]
-ColorScheme=BreezeDark
+Plugins=ffmpegthumbnailer,appimagethumbnail,audiothumbnail,avif,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,heif,imagethumbnail,jpegthumbnail,jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,librsvg,svgthumbnail,ffmpegthumbs,gdk-pixbuf-thumbnailer,gsf-office
