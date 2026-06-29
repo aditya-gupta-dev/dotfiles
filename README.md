@@ -1,9 +1,3 @@
 # Arch Hyprland Dotfiles
-
-TODOS:
-
-[]No Setup Script: create a script that installs all the required programs and sets thigns up. 
-
-Bugs: 
-
-[]Wallpaper Bug: the repo uses absolute path of wallpaper at `./hypr/hyprland.conf` which needs to set to relative path on user's system.
+last commit with custom hyprland and gnome rice -> 057113f6ed02abd4d44b362cee66530bd2896385
+(should've ideally made a new branch)
