@@ -1,6 +1,10 @@
 # Commands to run in interactive sessions can go here
 if status is-interactive
-    # No greeting
+    export BUN_INSTALL="$HOME/.bun"
+    export GO_BIN="$HOME/go/bin"
+    export PATH="$BUN_INSTALL/bin:$PATH"
+    export PATH="$GO_BIN:$PATH"
+  # No greeting
     set fish_greeting
 
     # Use starship
