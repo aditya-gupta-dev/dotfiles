@@ -44,6 +44,22 @@ apply_kitty() {
   # Reload
   kill -SIGUSR1 $(pidof kitty)
 }
+apply_ghostty() {
+  # Ghostty has no template/sed flow like kitty; a small python script reads
+  # the generated material_colors.scss and writes a Ghostty theme file.
+  if [ ! -f "$SCRIPT_DIR/generate_ghostty_theme.py" ]; then
+    echo "Generator not found for Ghostty theme. Skipping that."
+    return
+  fi
+  mkdir -p "$STATE_DIR"/user/generated/terminal
+  python3 "$SCRIPT_DIR/generate_ghostty_theme.py" \
+    --scss "$STATE_DIR/user/generated/material_colors.scss" \
+    --out "$STATE_DIR/user/generated/terminal/ghostty-theme.conf"
+
+  # Reload running ghostty instances. Ghostty has no reload signal like kitty's
+  # SIGUSR1; users bind reload_config (default ctrl+shift+,) to pick up changes.
+}
+
 
 apply_anyterm() {
   # Check if terminal escape sequence template exists
@@ -73,6 +89,7 @@ apply_anyterm() {
 apply_term() {
   apply_kitty
   apply_anyterm
+  apply_ghostty
 }
 
 apply_qt() {
