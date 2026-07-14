@@ -15,3 +15,9 @@ obs
 uv 
 bun
 rust
+docker
+distrobox
+fzf
+fd
+eza
+
